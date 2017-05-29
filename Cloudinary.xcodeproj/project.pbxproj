@@ -1035,7 +1035,10 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				EXCLUDED_SOURCE_FILE_NAMES = GenerateCLDCryptoModule.swift;
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/iOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Cloudinary/Cloudinary/Frameworks/CLDCrypto/$(PLATFORM_NAME)",
+				);
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Cloudinary/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -1067,7 +1070,10 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				EXCLUDED_SOURCE_FILE_NAMES = GenerateCLDCryptoModule.swift;
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/iOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Cloudinary/Cloudinary/Frameworks/CLDCrypto/$(PLATFORM_NAME)",
+				);
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Cloudinary/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
